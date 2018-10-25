@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "caecaed7a831a7c8a9992449a6260387",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -599,16 +590,14 @@
         "title": "My Blog",
         "description": "This is my awesome blog"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-25T02:21:51.403Z",
+      "buildTime": "2018-10-25T03:56:23.522Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "28d98e415ef040a8e82326819f7d5036",
+        "contentDigest": "9ea4b214e49214e3cc95e12e0c6d461b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1416,10 +1405,6 @@
     "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js": {
       "query": "query cUsersChrisDevelopmentCodegruntGatsbyV2BlogSrcTemplatesBlogPostJs831079572(\n  $pathSlug: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $pathSlug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js"
-    },
-    "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js"
     },
     "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/index.js": {
       "query": "query HomepageQuery {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          date\n        }\n      }\n    }\n  }\n}\n",

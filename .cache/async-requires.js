@@ -5,7 +5,6 @@ exports.components = {
   "component---src-templates-all-tags-index-js": () => import("C:\\Users\\Chris\\Development\\codegrunt\\gatsby-v2-blog\\src\\templates\\allTagsIndex.js" /* webpackChunkName: "component---src-templates-all-tags-index-js" */),
   "component---src-templates-single-tag-index-js": () => import("C:\\Users\\Chris\\Development\\codegrunt\\gatsby-v2-blog\\src\\templates\\singleTagIndex.js" /* webpackChunkName: "component---src-templates-single-tag-index-js" */),
   "component---src-templates-blog-post-js": () => import("C:\\Users\\Chris\\Development\\codegrunt\\gatsby-v2-blog\\src\\templates\\blogPost.js" /* webpackChunkName: "component---src-templates-blog-post-js" */),
-  "component---cache-dev-404-page-js": () => import("C:\\Users\\Chris\\Development\\codegrunt\\gatsby-v2-blog\\.cache\\dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-index-js": () => import("C:\\Users\\Chris\\Development\\codegrunt\\gatsby-v2-blog\\src\\pages\\index.js" /* webpackChunkName: "component---src-pages-index-js" */)
 }
 
