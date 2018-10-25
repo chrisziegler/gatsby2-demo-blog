@@ -1,0 +1,1439 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "caecaed7a831a7c8a9992449a6260387",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "84071eda049ab9b7a87e4cd68817d5e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4c5e77bc50c0ecca2643ab441601c3f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7436a184532628dd652c4468b1a24832",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2081d9326bcd9ea47b7668931e953fc1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "74974fcf351d48626e95e621139bb7c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.1-rc.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.1-rc.5",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "48d52c4a135ccd383e3915f452542af9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.1-rc.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "C:\\Users\\Chris\\Development\\codegrunt\\gatsby-v2-blog/src/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.1-rc.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "713cf0a5b0cc102e4f4d007ef024d7cf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "a91bad8064daea5e30ff999dcd993848",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.1-rc.6"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.1-rc.5"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "afc894bec29d96694c51f2163d67e80f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ea415e9abd05931c0de845d82c7fd097",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "My Blog",
+        "description": "This is my awesome blog"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-25T02:21:51.403Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "28d98e415ef040a8e82326819f7d5036",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5c8152ed-60fb-5879-8bf7-ea3882a771c3": {
+      "id": "5c8152ed-60fb-5879-8bf7-ea3882a771c3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7bef506460450e5e7d5d0e0d98a29d0d",
+        "type": "Directory",
+        "description": "Directory \"src\\pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-24T05:44:50.738Z",
+      "accessTime": "2018-10-24T05:44:50.738Z",
+      "changeTime": "2018-10-24T05:44:50.738Z",
+      "birthTime": "2018-10-23T06:52:15.451Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 3056514359,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374885366060,
+      "atimeMs": 1540359890737.9875,
+      "mtimeMs": 1540359890737.9875,
+      "ctimeMs": 1540359890737.9875,
+      "birthtimeMs": 1540277535451.3335,
+      "atime": "2018-10-24T05:44:50.738Z",
+      "mtime": "2018-10-24T05:44:50.738Z",
+      "ctime": "2018-10-24T05:44:50.738Z",
+      "birthtime": "2018-10-23T06:52:15.451Z"
+    },
+    "4237b654-6ed6-586e-ac3f-a93e27480e7d": {
+      "id": "4237b654-6ed6-586e-ac3f-a93e27480e7d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "320acb9af79dfe6c711d18ae373cc9ba",
+        "type": "Directory",
+        "description": "Directory \"src\\pages\\2018-10-23-first-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-23-first-post",
+      "relativePath": "2018-10-23-first-post",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-23T16:32:09.070Z",
+      "accessTime": "2018-10-23T16:32:09.070Z",
+      "changeTime": "2018-10-23T16:32:09.070Z",
+      "birthTime": "2018-10-23T16:12:02.783Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages",
+      "base": "2018-10-23-first-post",
+      "ext": "",
+      "name": "2018-10-23-first-post",
+      "relativeDirectory": "",
+      "dev": 3056514359,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 157907461934728420,
+      "atimeMs": 1540312329070.3887,
+      "mtimeMs": 1540312329070.3887,
+      "ctimeMs": 1540312329070.3887,
+      "birthtimeMs": 1540311122782.5554,
+      "atime": "2018-10-23T16:32:09.070Z",
+      "mtime": "2018-10-23T16:32:09.070Z",
+      "ctime": "2018-10-23T16:32:09.070Z",
+      "birthtime": "2018-10-23T16:12:02.783Z"
+    },
+    "73f11c28-070d-581c-b917-66bc69ec9a45": {
+      "id": "73f11c28-070d-581c-b917-66bc69ec9a45",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8f36b0c69a0468f542569eb9a36629af",
+        "type": "Directory",
+        "description": "Directory \"src\\pages\\2018-10-24-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-24-second-post",
+      "relativePath": "2018-10-24-second-post",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-23T16:32:09.110Z",
+      "accessTime": "2018-10-23T16:32:09.111Z",
+      "changeTime": "2018-10-24T05:44:24.193Z",
+      "birthTime": "2018-10-23T16:13:07.487Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages",
+      "base": "2018-10-24-second-post",
+      "ext": "",
+      "name": "2018-10-24-second-post",
+      "relativeDirectory": "",
+      "dev": 3056514359,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 135952413751384600,
+      "atimeMs": 1540312329111.2793,
+      "mtimeMs": 1540312329110.2834,
+      "ctimeMs": 1540359864193.2925,
+      "birthtimeMs": 1540311187486.7537,
+      "atime": "2018-10-23T16:32:09.111Z",
+      "mtime": "2018-10-23T16:32:09.110Z",
+      "ctime": "2018-10-24T05:44:24.193Z",
+      "birthtime": "2018-10-23T16:13:07.487Z"
+    },
+    "fc487b3e-bdc3-5bb6-9cdd-179cbfc1645b": {
+      "id": "fc487b3e-bdc3-5bb6-9cdd-179cbfc1645b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "87baac5593095e6052ceb7372603327a",
+        "type": "Directory",
+        "description": "Directory \"src\\pages\\2018-10-25-third-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-25-third-post",
+      "relativePath": "2018-10-25-third-post",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-23T16:32:09.148Z",
+      "accessTime": "2018-10-23T16:32:09.149Z",
+      "changeTime": "2018-10-24T05:44:50.738Z",
+      "birthTime": "2018-10-23T16:13:20.195Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages",
+      "base": "2018-10-25-third-post",
+      "ext": "",
+      "name": "2018-10-25-third-post",
+      "relativeDirectory": "",
+      "dev": 3056514359,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 16888498602783698,
+      "atimeMs": 1540312329149.1777,
+      "mtimeMs": 1540312329148.18,
+      "ctimeMs": 1540359890737.9875,
+      "birthtimeMs": 1540311200194.9255,
+      "atime": "2018-10-23T16:32:09.149Z",
+      "mtime": "2018-10-23T16:32:09.148Z",
+      "ctime": "2018-10-24T05:44:50.738Z",
+      "birthtime": "2018-10-23T16:13:20.195Z"
+    },
+    "3e1240ee-2b04-5ce7-9d4b-e7b29a1b5a37": {
+      "id": "3e1240ee-2b04-5ce7-9d4b-e7b29a1b5a37",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c542493c9a54b468ba7ccc4376ee75fa",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\pages\\index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1143,
+      "prettySize": "1.14 kB",
+      "modifiedTime": "2018-10-25T02:03:22.056Z",
+      "accessTime": "2018-10-25T02:03:22.056Z",
+      "changeTime": "2018-10-25T02:03:22.056Z",
+      "birthTime": "2018-10-23T06:52:15.452Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 3056514359,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1970324838787368,
+      "atimeMs": 1540433002056.3845,
+      "mtimeMs": 1540433002056.3845,
+      "ctimeMs": 1540433002056.3845,
+      "birthtimeMs": 1540277535452.3303,
+      "atime": "2018-10-25T02:03:22.056Z",
+      "mtime": "2018-10-25T02:03:22.056Z",
+      "ctime": "2018-10-25T02:03:22.056Z",
+      "birthtime": "2018-10-23T06:52:15.452Z"
+    },
+    "613bbc51-8712-57dc-ac50-1d443926c430": {
+      "id": "613bbc51-8712-57dc-ac50-1d443926c430",
+      "children": [
+        "5d38b66b-ff2d-512c-a666-faa42ba638e7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2b3c87dd8890bb71ae156d951abac9ce",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src\\pages\\2018-10-23-first-post\\index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-23-first-post/index.md",
+      "relativePath": "2018-10-23-first-post/index.md",
+      "extension": "md",
+      "size": 666,
+      "prettySize": "666 B",
+      "modifiedTime": "2018-10-24T21:30:34.746Z",
+      "accessTime": "2018-10-24T21:30:34.746Z",
+      "changeTime": "2018-10-24T21:30:34.746Z",
+      "birthTime": "2018-10-23T16:32:09.070Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-23-first-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-10-23-first-post",
+      "dev": 3056514359,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 61080069946250790,
+      "atimeMs": 1540416634745.7327,
+      "mtimeMs": 1540416634745.7327,
+      "ctimeMs": 1540416634745.7327,
+      "birthtimeMs": 1540312329070.3887,
+      "atime": "2018-10-24T21:30:34.746Z",
+      "mtime": "2018-10-24T21:30:34.746Z",
+      "ctime": "2018-10-24T21:30:34.746Z",
+      "birthtime": "2018-10-23T16:32:09.070Z"
+    },
+    "b59edba7-426a-5a66-a625-b9e9d7e75bf2": {
+      "id": "b59edba7-426a-5a66-a625-b9e9d7e75bf2",
+      "children": [
+        "53e97088-3017-5946-bcc5-a99fa242dd7d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "abd188b0b558db705487572ccddd1506",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src\\pages\\2018-10-24-second-post\\index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-24-second-post/index.md",
+      "relativePath": "2018-10-24-second-post/index.md",
+      "extension": "md",
+      "size": 667,
+      "prettySize": "667 B",
+      "modifiedTime": "2018-10-24T18:07:41.051Z",
+      "accessTime": "2018-10-24T18:07:41.051Z",
+      "changeTime": "2018-10-24T18:07:41.051Z",
+      "birthTime": "2018-10-23T16:32:09.110Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-24-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-10-24-second-post",
+      "dev": 3056514359,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 15762598695947452,
+      "atimeMs": 1540404461050.8584,
+      "mtimeMs": 1540404461050.8584,
+      "ctimeMs": 1540404461050.8584,
+      "birthtimeMs": 1540312329110.2834,
+      "atime": "2018-10-24T18:07:41.051Z",
+      "mtime": "2018-10-24T18:07:41.051Z",
+      "ctime": "2018-10-24T18:07:41.051Z",
+      "birthtime": "2018-10-23T16:32:09.110Z"
+    },
+    "245750cc-9545-5b3c-8e10-dbcd7247d177": {
+      "id": "245750cc-9545-5b3c-8e10-dbcd7247d177",
+      "children": [
+        "3c1b6514-7541-5f13-94dc-06604b06756f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f7e28ef8f0ad9b8e701aa7415ba0989a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src\\pages\\2018-10-25-third-post\\index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-25-third-post/index.md",
+      "relativePath": "2018-10-25-third-post/index.md",
+      "extension": "md",
+      "size": 662,
+      "prettySize": "662 B",
+      "modifiedTime": "2018-10-24T18:07:56.531Z",
+      "accessTime": "2018-10-24T18:07:56.531Z",
+      "changeTime": "2018-10-24T18:07:56.531Z",
+      "birthTime": "2018-10-23T16:32:09.148Z",
+      "root": "C:/",
+      "dir": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-25-third-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-10-25-third-post",
+      "dev": 3056514359,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 7881299348179025,
+      "atimeMs": 1540404476531.048,
+      "mtimeMs": 1540404476531.048,
+      "ctimeMs": 1540404476531.048,
+      "birthtimeMs": 1540312329148.18,
+      "atime": "2018-10-24T18:07:56.531Z",
+      "mtime": "2018-10-24T18:07:56.531Z",
+      "ctime": "2018-10-24T18:07:56.531Z",
+      "birthtime": "2018-10-23T16:32:09.148Z"
+    },
+    "5d38b66b-ff2d-512c-a666-faa42ba638e7": {
+      "id": "5d38b66b-ff2d-512c-a666-faa42ba638e7",
+      "children": [],
+      "parent": "613bbc51-8712-57dc-ac50-1d443926c430",
+      "internal": {
+        "content": "\r\nFirst Post: The standard Lorem Ipsum passage, used since the 1500s\r\n\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "477c3be1ff2d765a03320dccbdb98924",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My First Post",
+        "path": "/first-post",
+        "date": "2018-10-23",
+        "tags": [
+          "this",
+          "that",
+          "other"
+        ],
+        "excerpt": "A preview of my first post",
+        "_PARENT": "613bbc51-8712-57dc-ac50-1d443926c430"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nFirst Post: The standard Lorem Ipsum passage, used since the 1500s\r\n\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n",
+      "fileAbsolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-23-first-post/index.md"
+    },
+    "53e97088-3017-5946-bcc5-a99fa242dd7d": {
+      "id": "53e97088-3017-5946-bcc5-a99fa242dd7d",
+      "children": [],
+      "parent": "b59edba7-426a-5a66-a625-b9e9d7e75bf2",
+      "internal": {
+        "content": "\r\nPost 2: The standard Lorem Ipsum passage, used since the 1500s\r\n\r\n\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a24f4a50b45b046cb152f7238ea9d926",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Second Post",
+        "path": "/second-post",
+        "date": "2018-10-24",
+        "tags": [
+          "this",
+          "that",
+          "other"
+        ],
+        "excerpt": "A preview of my second post",
+        "_PARENT": "b59edba7-426a-5a66-a625-b9e9d7e75bf2"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nPost 2: The standard Lorem Ipsum passage, used since the 1500s\r\n\r\n\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n",
+      "fileAbsolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-24-second-post/index.md"
+    },
+    "3c1b6514-7541-5f13-94dc-06604b06756f": {
+      "id": "3c1b6514-7541-5f13-94dc-06604b06756f",
+      "children": [],
+      "parent": "245750cc-9545-5b3c-8e10-dbcd7247d177",
+      "internal": {
+        "content": "\r\nPost 3: The standard Lorem Ipsum passage, used since the 1500s\r\n\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ef5ddfcd2fe6c6668ba7302e5bd1d127",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Third Post",
+        "path": "/third-post",
+        "date": "2018-10-25",
+        "tags": [
+          "this",
+          "that",
+          "other"
+        ],
+        "excerpt": "A preview of my third post",
+        "_PARENT": "245750cc-9545-5b3c-8e10-dbcd7247d177"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nPost 3: The standard Lorem Ipsum passage, used since the 1500s\r\n\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n",
+      "fileAbsolutePath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/2018-10-25-third-post/index.md"
+    },
+    "SitePage /tags": {
+      "jsonName": "tags-cd4",
+      "internalComponentName": "ComponentTags",
+      "path": "/tags",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/allTagsIndex.js",
+      "componentChunkName": "component---src-templates-all-tags-index-js",
+      "context": {
+        "tags": [
+          "other",
+          "that",
+          "this"
+        ]
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/allTagsIndex.js",
+      "id": "SitePage /tags",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3c18e3d226e2dd11aa9d04da0721d59f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/other": {
+      "jsonName": "tags-other-d53",
+      "internalComponentName": "ComponentTagsOther",
+      "path": "/tags/other",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js",
+      "componentChunkName": "component---src-templates-single-tag-index-js",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/first-post",
+              "title": "My First Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/second-post",
+              "title": "My Second Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/third-post",
+              "title": "My Third Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          }
+        ],
+        "tagName": "other"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js",
+      "id": "SitePage /tags/other",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a29956ce8582ae77e8d3827dd9a04bc9",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/that": {
+      "jsonName": "tags-that-90b",
+      "internalComponentName": "ComponentTagsThat",
+      "path": "/tags/that",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js",
+      "componentChunkName": "component---src-templates-single-tag-index-js",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/first-post",
+              "title": "My First Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/second-post",
+              "title": "My Second Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/third-post",
+              "title": "My Third Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          }
+        ],
+        "tagName": "that"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js",
+      "id": "SitePage /tags/that",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5fcf715cd1fb77457f24d2fc1e86c659",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/this": {
+      "jsonName": "tags-this-80b",
+      "internalComponentName": "ComponentTagsThis",
+      "path": "/tags/this",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js",
+      "componentChunkName": "component---src-templates-single-tag-index-js",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/first-post",
+              "title": "My First Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/second-post",
+              "title": "My Second Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          },
+          {
+            "frontmatter": {
+              "path": "/third-post",
+              "title": "My Third Post",
+              "tags": [
+                "this",
+                "that",
+                "other"
+              ]
+            }
+          }
+        ],
+        "tagName": "this"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js",
+      "id": "SitePage /tags/this",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8da289671b2285cc0d425c1d192df308",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /first-post": {
+      "jsonName": "first-post-eb4",
+      "internalComponentName": "ComponentFirstPost",
+      "path": "/first-post",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "pathSlug": "/first-post",
+        "prev": null,
+        "next": {
+          "frontmatter": {
+            "path": "/second-post",
+            "title": "My Second Post",
+            "tags": [
+              "this",
+              "that",
+              "other"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bfe78f93f12536b829b4c1e42fe60866",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /second-post": {
+      "jsonName": "second-post-da0",
+      "internalComponentName": "ComponentSecondPost",
+      "path": "/second-post",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "pathSlug": "/second-post",
+        "prev": {
+          "frontmatter": {
+            "path": "/first-post",
+            "title": "My First Post",
+            "tags": [
+              "this",
+              "that",
+              "other"
+            ]
+          }
+        },
+        "next": {
+          "frontmatter": {
+            "path": "/third-post",
+            "title": "My Third Post",
+            "tags": [
+              "this",
+              "that",
+              "other"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js",
+      "id": "SitePage /second-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e8debd2951dd752c9e4d3ff48b12e0ed",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /third-post": {
+      "jsonName": "third-post-f99",
+      "internalComponentName": "ComponentThirdPost",
+      "path": "/third-post",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "pathSlug": "/third-post",
+        "prev": {
+          "frontmatter": {
+            "path": "/second-post",
+            "title": "My Second Post",
+            "tags": [
+              "this",
+              "that",
+              "other"
+            ]
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js",
+      "id": "SitePage /third-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ee2255edeb1c7717252f6ef8b1f11510",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8a5dcbb12bb049a37afc607254ee5959",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "dd29e36f02e5564628fd284e33a859cd"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-header-js"
+      ],
+      "5d38b66b-ff2d-512c-a666-faa42ba638e7": [
+        "/first-post"
+      ],
+      "53e97088-3017-5946-bcc5-a99fa242dd7d": [
+        "/second-post"
+      ],
+      "3c1b6514-7541-5f13-94dc-06604b06756f": [
+        "/third-post"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "first-post-eb4": "622/path---first-post-eb-4-4f5-TNW8mwvJsGkYRXXYVZ4gcpXDo",
+    "sq--src-components-header-js": 3501179355,
+    "index": "49/path---index-6a9-IvaIJNxWUgmCgUteoEt3lZEXN0",
+    "second-post-da0": "465/path---second-post-da-0-248-m5oaTWbfgGcn0eJQElk3izIrRjY",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "third-post-f99": "758/path---third-post-f-99-5fb-49A59Ted4ZL8AC7ynYg7gvbxq8",
+    "tags-cd4": "442/path---tags-cd-4-e51-s04nOVmsLYPao95IpYFFG0XHmN0",
+    "tags-other-d53": "193/path---tags-other-d-53-47b-ugq7FZFEmS4TNq4ASVIyGPUhNA",
+    "tags-that-90b": "144/path---tags-that-90-b-339-xToZdXcx4OHyLZwKsrxMEdGxR6E",
+    "tags-this-80b": "466/path---tags-this-80-b-15d-ou4nLmsrzUQDEGRD9hQGZsPf0c"
+  },
+  "components": {
+    "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/allTagsIndex.js": {
+      "query": "",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/allTagsIndex.js"
+    },
+    "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js": {
+      "query": "",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/singleTagIndex.js"
+    },
+    "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js": {
+      "query": "query cUsersChrisDevelopmentCodegruntGatsbyV2BlogSrcTemplatesBlogPostJs831079572(\n  $pathSlug: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $pathSlug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/templates/blogPost.js"
+    },
+    "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/.cache/dev-404-page.js"
+    },
+    "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/index.js": {
+      "query": "query HomepageQuery {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          date\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-header-js": {
+      "name": "cUsersChrisDevelopmentCodegruntGatsbyV2BlogSrcComponentsHeaderJs3501179355",
+      "componentPath": "C:/Users/Chris/Development/codegrunt/gatsby-v2-blog/src/components/Header.js",
+      "id": "sq--src-components-header-js",
+      "jsonName": "sq--src-components-header-js",
+      "query": "query cUsersChrisDevelopmentCodegruntGatsbyV2BlogSrcComponentsHeaderJs3501179355 {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
+      "hash": 3501179355
+    }
+  }
+}
